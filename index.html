@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子情书</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #f0ebe3;
+        }
+        #loveMessage {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="openButton">请素包子点击这里</button>
+    <div id="loveMessage">
+        <p>亲爱的素包子</p>
+        <p>亲爱的小祖宗</p>
+<p>我们已经度过了漫长的一年</p>
+        <p>从遇见你的那一刻起，我的世界便充满了色彩</p>
+<p>虽然这片色彩并不总是五彩斑斓</p>
+<p>但我知道这仍然是独一无二</p>
+<p>我偷偷问了问上帝</p>
+<p>他告诉我</p>
+<p>我们的缘分还没有结束</p>
+<p>一生何须太长，有你才是幸福</p>
+<p>一生何求太多，有你就已满足</p>
+<p>感谢时光，不偏不倚，躲过了风口浪尖，让我恰好遇见你</p>
+        <p>愿我们的爱如星辰般永恒</p>
+        <p>♥ 我爱你 ♥</p>
+<p>在一起的日子		（+1）年</p>
+    </div>
+
+    <script>
+        document.getElementById("openButton").addEventListener("click", function() {
+            document.getElementById("loveMessage").style.display = "block";
+            this.style.display = "none";
+        });
+    </script>
+
+</body>
+</html>
